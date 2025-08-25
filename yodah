@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cincau_Sienchauu</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">cincau<span>_sienchau</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Saatnya <br />
+          Nikmati Seteguk <span>Cincau</span>
+        </h1>
+        <p>Cihuyyy...</p>
+        <a
+          href="https://wa.me/6281913410240?text=Halo%20saya%20ingin%20pesan%20Cincau%20Sienchau%20Rp10.000"
+          class="btn-beli"
+          target="_blank"
+        >
+          Beli Sekarang
+        </a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/jawa.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Cincau Kami</h3>
+          <p>
+            Cincau kami dibuat dari bahan alami pilihan, segar setiap hari.
+            Dengan rasa manis yang pas dan tekstur lembut, setiap tegukan
+            menghadirkan kesegaran khas tradisi Indonesia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section end -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/cihuyyyyy.jpeg" alt="Es Cincau" class="menu-img" />
+          <h3 class="menu-title">Es Cincau Segar</h3>
+          <p class="menu-desc">
+            Cincau hitam lembut dipadukan dengan susu & gula aren khas kami.
+          </p>
+          <a
+            href="https://wa.me/6281913410240?text=Halo%20saya%20ingin%20pesan%20Es%20Cincau%20Segar%20Rp10.000"
+            class="price-btn"
+          >
+            Rp10.000
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Kontak -->
+    <section id="contact" class="kontak">
+      <h2>Kontak Kami</h2>
+      <div class="kontak-box">
+        <a
+          href="https://wa.me/6281913410240?text=Halo%20saya%20mau%20pesan%20Cincau"
+          target="_blank"
+        >
+          <img src="img/phone-call.svg" alt="WhatsApp" class="sosmed-icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/cincau_sienchauu?igsh=MW9jNjRxejRpaWRuYQ=="
+          target="_blank"
+        >
+          <img src="img/instagram.svg" alt="Instagram" class="sosmed-icon" />
+        </a>
+      </div>
+    </section>
+
+    <!-- icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
